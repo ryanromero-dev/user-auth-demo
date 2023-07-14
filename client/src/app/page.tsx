@@ -1,10 +1,11 @@
-import Image from 'next/image'
+
+import Login from './Login'
 import SignUp from './SignUp'
-import { Sign } from 'crypto'
 export default function Home() {
   return (
-    <main >
+    <main>
       <SignUp />
+      <Login></Login>
     </main>
   )
 }
